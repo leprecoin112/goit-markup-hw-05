@@ -341,12 +341,13 @@ img {
 
 .example-title {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  height: 70px;
 
   font-weight: 700;
   font-size: 14px;
